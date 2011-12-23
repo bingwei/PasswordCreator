@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">密码生成器</string>
+    <string name="plaintextPassword">明文密码</string>
+    <string name="btnGenerate">生成</string>
+    <string name="generatePasswordWithMD5">使用当前的MD5生成密码</string>
+    <string name="getAgain">再生</string>
+    <string name="hide">隐藏</string>
+    <string name="defaultPasswordDigit">8</string>
+    <string name="getDigit">显示前面的位数</string>
+    <string name="tvPlaintext">明文: </string>
+    <string name="tvMd5">MD5: </string>
+    <string name="tvDecimal">十进制: </string>
+    <string name="digitIsTooBig">超出所能显示的最大位数!</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PasswordCreator</string>
+    <string name="plaintextPassword">Plaintext Password</string>
+    <string name="btnGenerate">Get</string>
+    <string name="generatePasswordWithMD5">Generate password with current MD5</string>
+    <string name="getAgain">Again</string>
+    <string name="hide">Hide</string>
+    <string name="defaultPasswordDigit">8</string>
+    <string name="getDigit">Show Front digits</string>
+    <string name="tvPlaintext">Plaintext: </string>
+    <string name="tvMd5">MD5: </string>
+    <string name="tvDecimal">Decimal: </string>
+    <string name="digitIsTooBig">Digit is too big!</string>
+
+</resources>

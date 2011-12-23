@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">"
+		    <EditText
+		        android:layout_height="wrap_content"
+		        android:layout_width="match_parent"
+		        android:layout_weight="1"
+		        android:id="@+id/etPlaintextPassword"
+		        android:hint="@string/plaintextPassword"
+		        />
+		    <Button
+		        android:layout_height="wrap_content"
+		        android:layout_width="match_parent"
+		        android:layout_weight="4"
+		        android:id="@+id/btnGenerate"
+		        android:text="@string/btnGenerate"
+		        />
+		</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/tvPlaintext" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:id="@+id/tvPlaintext" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/tvMd5" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:id="@+id/tvMd5" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/tvDecimal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:id="@+id/tvDecimal" />
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:text="@string/generatePasswordWithMD5"
+	        />
+	    <Button
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="4"
+	        android:id="@+id/btnAgain"
+	        android:text="@string/getAgain"
+	        />
+		</LinearLayout>
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <EditText
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:inputType="number"
+	        android:hint="@string/defaultPasswordDigit"
+	        android:id="@+id/etPasswordDigit"
+	        />
+	    <Button
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:id="@+id/btnShow"
+	        android:text="@string/getDigit"
+	        />
+		</LinearLayout>
+	</LinearLayout>
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="20sp"
+        android:textSize="15dip"
+        android:id="@+id/cbHide"
+        android:text="@string/hide"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWarning" />
+</LinearLayout>
