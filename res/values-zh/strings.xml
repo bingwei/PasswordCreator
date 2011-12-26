@@ -5,13 +5,31 @@
     <string name="plaintextPassword">明文密码</string>
     <string name="btnGenerate">生成</string>
     <string name="generatePasswordWithMD5">使用当前的MD5生成密码</string>
-    <string name="getAgain">再生</string>
+    <string name="btnAgain">再生</string>
+    <string name="btnRefresh">刷新</string>
     <string name="hide">隐藏</string>
     <string name="defaultPasswordDigit">8</string>
     <string name="getDigit">显示前面的位数</string>
     <string name="tvPlaintext">明文: </string>
     <string name="tvMd5">MD5: </string>
     <string name="tvDecimal">十进制: </string>
-    <string name="digitIsTooBig">超出所能显示的最大位数!</string>
+    <string name="warning_digitIsTooBig">已经达到最长位数</string>
+    <string name="about">关于</string>
+    <string name="help">帮助</string>
+    <string name="alert_dialog_ok">确认</string>
+    <string name="aboutMsg">适用: 基于 Android2.3\n版本: 1.0\n
+    </string>
+    <string name="helpMsg">参考:\n\n
+     1. http://tianya23.blog.51cto.com/1081650/681428\n
+     2. http://zh.wikipedia.org/wiki/MD5\n
+     3. http://www.guokr.com/article/81430/\n\n
+     MD5("")空字串\n
+     = d41d8cd98f00b204e9800998ecf8427e\n\n
+     MD5("The quick brown fox jumps over the lazy dog")\n
+     = 9e107d9d372bb6826bd81d3542a419d6\n\n
+     为了密码的安全, 我们建议针对不同网站使用不同密码组合:\n
+     例如. 针对新浪微博: weibo+用户名+当前月份+特殊字符: weiboZhangSan11&amp;\n
+     请定期更新密码,在12月份使用\&#034;weiboZhangSan12&amp;\&#034;
+     </string>
 
 </resources>

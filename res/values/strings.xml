@@ -5,13 +5,31 @@
     <string name="plaintextPassword">Plaintext Password</string>
     <string name="btnGenerate">Get</string>
     <string name="generatePasswordWithMD5">Generate password with current MD5</string>
-    <string name="getAgain">Again</string>
+    <string name="btnAgain">Again</string>
+    <string name="btnRefresh">Refresh</string>
     <string name="hide">Hide</string>
     <string name="defaultPasswordDigit">8</string>
     <string name="getDigit">Show Front digits</string>
     <string name="tvPlaintext">Plaintext: </string>
     <string name="tvMd5">MD5: </string>
     <string name="tvDecimal">Decimal: </string>
-    <string name="digitIsTooBig">Digit is too big!</string>
+    <string name="warning_digitIsTooBig">It has reached the longest digits</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="aboutMsg">Applicable: based on Android2.3\nVersion: 1.0\n
+        </string>
+    <string name="helpMsg">Reference:\n\n
+     1. http://tianya23.blog.51cto.com/1081650/681428\n
+     2. http://zh.wikipedia.org/wiki/MD5\n
+     3. http://www.guokr.com/article/81430/\n\n
+     MD5("")\n
+     = d41d8cd98f00b204e9800998ecf8427e\n\n
+     MD5("The quick brown fox jumps over the lazy dog")\n
+     = 9e107d9d372bb6826bd81d3542a419d6\n\n
+     For security reason, we suggest that please use different combination for different web sites:\n
+     E.g. For facebook: facebook+user+currentMonth+specialCharactor: facebookTom11&amp;\n
+     And please update password regularly, \&#034;facebookTom12&amp;\&#034; instead for next month.
+     </string>
 
 </resources>
